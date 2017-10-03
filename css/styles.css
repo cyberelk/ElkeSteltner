@@ -1,3 +1,9 @@
+/* Graphical font for display headlines */
+.graphical-header {
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+}
+
 .stage {
     background-color: #282828;
     position: relative;
@@ -7,7 +13,7 @@
     bottom: 0;
     left: 10px;
     color: #ffffff;
-    font-size: 1em;
+    font-size: 1.9em;
 }
 
 footer.footer {
@@ -27,14 +33,14 @@ footer.footer .nav-link {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .stage .page-title {
-        font-size: 2em;
+        font-size: 3.5em;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .stage .page-title {
-        font-size: 2.5em;
+        font-size: 4.5em;
     }
     nav {
         border-bottom: 2px solid #868e96;
@@ -44,7 +50,7 @@ footer.footer .nav-link {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .stage .page-title {
-        font-size: 3em;
+        font-size: 6em;
     }
 
 }
