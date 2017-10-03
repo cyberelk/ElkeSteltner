@@ -8,15 +8,28 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+
+<div class="container-fluid stage">
+    <img src="img/stage_image.png" class="img-fluid" />
+    <h1 class="page-title">
+        Elke Steltner
+        <small class="text-muted"> - Harfe & Rezitation</small>
+    </h1>
+</div>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="img/harp_icon.png"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Startseite</a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Biografie</a>
             </li>
@@ -38,22 +51,74 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Unterricht</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Kontakt</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Impressum</a>
-            </li>
         </ul>
-        <span class="navbar-text">
-            Elke Steltner - Harfe & Rezitation
-        </span>
     </div>
 </nav>
-<div class="container-fluid" style="padding-left: 0; pading-right: 0;">
-    <img src="img/stage_image.png" class="img-fluid"/>
+
+
+<div class="container-fluid mt-2">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Nächste Termine</h2>
+
+            <div class="card-deck">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">"Am Achten um Acht"</h4>
+                        <p class="card-text">Dienstag, 8.12.2017, 20.00 Uhr</p>
+                        <p class="card-text">(Vor-) Weihnachtliche Lesung mit Musik für Konzertharfe</p>
+                        <p class="card-text"><small class="text-muted">Buchhandlung Elisabeth Adam, Römerstraße 52, Bad Ems</small></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Weihnachtskonzert der Musikschule Koblenz</h4>
+                        <p class="card-text">Samstag, 17.12.2017, 16.00 Uhr</p>
+                        <p class="card-text"><small class="text-muted">Pfarrkirche St. Martin, Pfaffendorfer Höhe, Koblenz</small></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Weihnachtsgottesdienst</h4>
+                        <p class="card-text">Samstag, 24.12.2017, 18.00 Uhr</p>
+                        <p class="card-text"><small class="text-muted">Pfarrkirche St. Martin, Pfaffendorfer Höhe, Koblenz</small></p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <img src="img/zitat-eichendorff.png" class="img-fluid" />
+
+            <blockquote class="blockquote text-right">
+                <p class="mb-0">Schläft ein Lied in allen Dingen,<br />Die da träumen fort und fort,<br />Und die Welt hebt an zu singen,<br />Triffst Du nur das Zauberwort.</p>
+                <footer class="blockquote-footer">Joseph Freiherr von Eichendorff</footer>
+            </blockquote>
+
+        </div>
+    </div>
 </div>
 
+<footer class="footer mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Impressum</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
